@@ -1,52 +1,46 @@
-![thumb-react-vite-ssr](./alura-react-vite-ssr.png)
+<h1 align="center"> Projeto ByteBooks </h1>
 
-# ByteBooks
+<div align="center">
 
-App de uma editora de livros fictícia.
+<a href="https://github.com/coelhoalexandre/projeto-alura-bytebooks/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Completo-lightgreen.svg" alt="Completo">
 
-## 🔨 Funcionalidades do projeto
+</div>
 
-O ByteBooks apresenta um catálogo de livros de tecnologia, com função de busca, detalhes do livro, carrinho e responsividade para dispositivos móveis.
+## Sumário
 
-![bytebooks-final-project](./bytebooks-final-project.gif)
+- [Cursos e Instrutores](#cursos-e-instrutores)
+- [Objetivos do Projeto](#objetivos-do-projeto)
+- [Tecnologias Utilizadas](#tecnolgias-utilizadas)
 
-## ✔️ Técnicas e tecnologias utilizadas
+## Cursos e Instrutores
 
-Para a implementação do projeto foram utilizadas as seguintes técnicas e tecnologias:
+|Curso|Instrutores|
+|---|---|
+|[React: identificando problemas de performance com o Google Lighthouse](https://cursos.alura.com.br/course/react-identificando-problemas-performance-google-lighthouse)|[Pedro de Mello](https://github.com/cicatrizdev)|
+|[React: utilizando SSR para otimizar a performance da aplicação](https://cursos.alura.com.br/course/react-ssr-otimizar-performance-aplicacao)|[Pedro de Mello](https://github.com/cicatrizdev)|
 
-- React
-  - Vite
-  - SSR
-- TypeScript
-- Tailwind
-- Identificação de problemas de perfomance
-  - Extensão Google Lighthouse
-  - React.Profiler
-  - Aba Profiler do React Dev Tools
-- Memoização de componentes
-  - React.lazy
-  - useMemo
-- Otimização de renderização
-  - React.lazy
-  - React.Suspense
-  - Propriedade key
-- Otimização de imagens e css
-  - Formatos de imagem modernos (.webp, .avif)
-  - Propriedade loading da tag <img>
-  - Propriedade font-swap
+## Objetivos do Projeto
+- Identificar problemas de performance com o Google Lighthouse e o React Profiler;
+- Utilizar o React Dev Tools para entender a renderização desnecessária de componentes;
+- Identificar e gerencie problemas de “tela branca” durante carregamentos;
+- Aplicar as funções nativas memo e useMemo para otimização de componentes;
+- Utilizar o React Suspense para gerenciamento de chamadas de API;
+- Desenvolver técnicas avançadas de SSR com React para otimizar a carga inicial da aplicação;
+- Constrir um carrinho de compras interativo com Vite e Tailwind CSS;
+- Refatorar o gerenciamento de estado do carrinho de compras usando useContext;
+- Criar estratégias para melhorar a performance e o SEO da aplicação;
+- Utilizar o Lighthouse para identificar e corrigir problemas de desempenho;
+- Implementar as melhores práticas para a finalização de um projeto em React e TypeScript.
 
-## 📁 Acesso ao projeto
+## Tecnolgias Utilizadas
 
-Você pode acessar o [código fonte do projeto](https://github.com/alura-cursos/bytebooks/tree/curso-2/projeto-inicial) ou [baixá-lo](https://github.com/alura-cursos/bytebooks/archive/refs/heads/curso-2/projeto-inicial.zip).
+1. HTML
+2. CSS
+3. JS
+4. TS
+5. React
+6. Vite
+7. Tailwind
 
-## 🛠️ Abrir e rodar o projeto
+Autor: [Alexandre Coelho](https://github.com/coelhoalexandre)
 
-Após baixar o projeto, abra o terminal na pasta do projeto e execute o comando `npm i` ou `npm install`.
-
-Inicie o servidor de desenvolvimento com `npm run dev`.
-
-Agora vá até seu navegador e acesse http://localhost:5173/ ou o link que o terminal do Vite indicar 🏆
-
-## 📚 Mais informações do curso
-
-Gostou do projeto e quer aprender como implementá-lo? Você pode [acessar o curso de React Vite e SSR: Utilizando SSR para otimizar a performance da aplicação](https://cursos.alura.com.br/course/react-observabilidade-1).
